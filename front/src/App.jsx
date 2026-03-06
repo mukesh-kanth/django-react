@@ -8,7 +8,7 @@ function App() {
 
   // 🔹 Fetch Data (GET)
   useEffect(() => {
-    axios.get("http://127.0.0.1:8000/admin_app/api/samples/")
+    axios.get("https://django-react-2-ldly.onrender.com/admin_app/api/samples/")
       .then(res => setSamples(res.data))
       .catch(err => console.log(err));
   }, []);
@@ -19,7 +19,7 @@ function App() {
 
     try {
       const res = await axios.post(
-        "http://127.0.0.1:8000/admin_app/api/samples/",
+        "https://django-react-2-ldly.onrender.com/admin_app/api/samples/",
         { name, password }
       );
 
