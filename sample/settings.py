@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-^jx#iee0!$d*-m=ocd!t%uuspza-!84d#e^2$%j&oyl#)d5q1w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['dpg-d6l5mo7pm1nc7395pjc0-a.oregon-postgres.render.com', 'localhost',]
+ALLOWED_HOSTS = [
+    "django-react-2-ldly.onrender.com",
+    "localhost",
+    "127.0.0.1"
+]
 
 
 # Application definition
