@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-^jx#iee0!$d*-m=ocd!t%uuspza-!84d#e^2$%j&oyl#)d5q1w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['dpg-d6l5mo7pm1nc7395pjc0-a.oregon-postgres.render.com', 'localhost',]
 
 
 # Application definition
@@ -81,10 +81,10 @@ WSGI_APPLICATION = 'sample.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'sample_db',
-        'USER': 'postgres',
-        'PASSWORD': 'Mukesh@123',
-        'HOST': 'localhost',
+        'NAME': 'django_db_a6r1',
+        'USER': 'django_user',
+        'PASSWORD': 'XzD6YGaOutRmGXvWUyw411qwCAK1GiLp',
+        'HOST': 'dpg-d6l5mo7pm1nc7395pjc0-a.oregon-postgres.render.com',
         'PORT': '5432',
     }
 }
